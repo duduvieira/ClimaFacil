@@ -1,0 +1,101 @@
+.container-card {
+    position: relative;
+    display: flex;
+    margin-right: 10%;
+    margin-top: -2%;
+    justify-content: flex-end;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(65, 65, 65, 0.087);
+    border: 1px solid rgba(255, 255, 255, 0.089);
+}
+
+.card-other-days {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 45px;
+
+}
+
+.card .card-other-days .line-vertical {
+    width: 1px;
+    height: 80%;
+    background-color: rgba(31, 38, 135, 0.37);
+    text-align: none;
+}
+
+.container-card .card .permission-message {
+    font-size: 1em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 8%;
+}
+
+.container-card .card .info-main {
+    display: contents;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container-card .card .info-main #name-city {
+    margin-top: -5%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.3em;
+    letter-spacing: 1.2px;
+    color: rgb(0, 0, 0);
+}
+
+.container-card .card .info-main .temperature-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-card .card .info-main .temperature-info #graus {
+    text-align: center;
+    font-size: 3em;
+    color: #000;
+}
+
+.container-card .card .info-main .temperature-info #description {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: rgba(0, 0, 0, 0.655);
+    margin-top: -5%;
+    margin-bottom: 10%;
+}
+
+.container-card .card .info-main .clima-info {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.card .card-other-days .card #temp {
+    font-size: 0.7em;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    
+  }
+.maxTemp,
+.minTemp {
+  font-size: 0.8em;
+  font-weight: 500;
+  color: rgb(19, 12, 12);
+}

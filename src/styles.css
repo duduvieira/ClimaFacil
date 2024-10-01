@@ -1,13 +1,28 @@
 html, body {
+    font-family: "Mulish", sans-serif;
+    font-weight: 600;
     height: 100%;
+    width: 100%;
     margin: 0;
+    padding: 0;
   }
+
   
-  body {
-    background-image: url('app/assets/jpg/background-weather.jpg');
+  .background{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(52, 129, 252);
+    /* background-image: url('app/assets/png/background-weather.png'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
   }
-  
+
+.blue {
+  color: rgb(55, 55, 128);
+}
+
+.vertical-middle {
+  vertical-align: middle;
+}
